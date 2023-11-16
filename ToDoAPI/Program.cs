@@ -45,6 +45,8 @@ namespace ToDoAPI
 
             app.MapControllers();
 
+            app.UseCors();
+
             app.Run();
         }
     }
